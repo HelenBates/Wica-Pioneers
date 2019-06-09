@@ -1,0 +1,9 @@
+"""
+
+This function is to calculate the radius of a circle to make a dress making pattern for a fill circle skirt"""def calc_diameter (circumference, seam_allowance):
+
+   diameter = (circumference + seam_allowance) / 3.14
+
+   radius = diameter / 2
+
+   return radiusprint(f"The radius is {calc_diameter(76, 2):.2f} cm.")

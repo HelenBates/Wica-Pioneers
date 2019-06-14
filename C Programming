@@ -1,0 +1,18 @@
+//Some simple calculations in C//
+#include <stdio.h>
+int main(void){
+    int height = 7;
+    int width = 5;
+    int perimeter = 0;
+    int area = 0;
+    
+    perimeter = (height * 2) + (width * 2);
+    area = height * width;
+    
+    printf("The perimeter is %d inches\n", perimeter);
+    printf("The area is %d inches\n", area);
+    
+    return 0;
+    
+}
+ 

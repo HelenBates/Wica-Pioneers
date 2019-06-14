@@ -16,3 +16,19 @@ int main(void){
     
 }
  
+//how to convert ounces to grams//
+#include <stdio.h>
+int main(void){
+    float ounce = 1;
+    float gram = 28.3495;
+    float ounces_to_grams = 0;
+
+    ounces_to_grams = ounce * gram;
+    
+    printf("The weight in grams is %f3.2 grams\n", ounces_to_grams);
+    
+    
+    return 0;
+    
+}
+//would be more useful to turn this into a function//
